@@ -12,16 +12,24 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+
+    <script>
+        /*to prevent Firefox FOUC, this must be here*/
+        let FF_FOUC_FIX;
+    </script>
 </head>
 
 <body>
     <main>
         <div class="left">
             <aside id="sidebar">
-                <input type="color" id="color">
+                <input type="color" id="color" value="#333333">
+                <button id="color-mode">Color</button>
+                <button id="eraser-mode">Eraser</button>
+                <button id="clear">Clear</button>
                 <div>
-                    <input type="range" id="resolution" value="10" min="10" max="64">
-                    <label for="resolution" id="resolution-label">10x10</label>
+                    <input type="range" id="resolution" min="16" max="64">
+                    <label for="resolution" id="resolution-label"></label>
                 </div>
             </aside>
         </div>
