@@ -14,7 +14,7 @@
         rel="stylesheet">
 
     <script>
-        /*to prevent Firefox FOUC, this must be here*/
+        /*to prevent layout rendering bugs, this must be here*/
         let FF_FOUC_FIX;
     </script>
 </head>
@@ -23,9 +23,10 @@
     <main>
         <div class="left">
             <aside id="sidebar">
-                <input type="color" id="color" value="#333333">
-                <button id="color-mode">Color</button>
-                <button id="eraser-mode">Eraser</button>
+                <input type="color" id="color-picker" value="#333333">
+                <button id="color">Color</button>
+                <button id="rainbow">Rainbow</button>
+                <button id="eraser">Eraser</button>
                 <button id="clear">Clear</button>
                 <div>
                     <input type="range" id="resolution" min="16" max="64">
