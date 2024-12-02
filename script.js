@@ -13,10 +13,11 @@ const HEIGHT = 500;
 
 const DEFAULT_COLOR = "#333333";
 const DEFAULT_RESOLUTION = 16;
+const DEFAULT_MODE = "color";
 
 let color = DEFAULT_COLOR;
 let resolution = DEFAULT_RESOLUTION;
-let mode = "color";
+let mode = DEFAULT_COLOR;
 
 const setColor = (value) => (color = value);
 const setResolution = (value) => (resolution = value);
