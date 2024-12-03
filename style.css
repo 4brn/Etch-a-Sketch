@@ -65,11 +65,11 @@ main {
                 }
 
                 &.active {
-                    background-color: #444444;
+                    background-color: var(--primary-dark);
                     color: var(--primary-light);
                     width: 83%;
                     height: 83%;
-                    opacity: 90%;
+                    /*opacity: 90%;*/
                 }
             }
 
