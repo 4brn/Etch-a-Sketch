@@ -1,4 +1,4 @@
 # Etch-a-sketch
 
-Minimalistic Etch-a-sketch game.
+A modern and minimalistic Etch-a-sketch emulator.
 - [Live Demo](https://4brn.github.io/etch-a-sketch/)
